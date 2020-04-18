@@ -1,0 +1,142 @@
+body#ajus{
+	width: 100%;
+	height: 100%;
+    background-color: rgba(240, 219, 79, .5);
+}
+
+header#drcarrer{
+	width: 100%;
+	height: 50px;
+	background-color:#81F781;
+	
+}
+span#atras{
+font-size: 200%;
+color: #3ADF00;
+}
+
+span#atras:hover{
+color: rgba(240, 219, 79, .5);
+}
+
+span#logo{
+	font-size: 200%;
+	color: #3ADF00;
+	margin-left: 8%;
+	transform:scale(0,0);
+   transition-property: transform;
+   transition-duration: 2s;
+}
+span#logo:hover{
+	color: rgba(240, 219, 79, .5);
+}
+
+span#pal{
+	font-size: 200%;
+	color: #3ADF00;
+}
+
+input#cajas{
+	border width: 0px;
+	background-color: #FFF;
+	outline: none;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+}
+
+article#per{	
+    border-color:#81F781;
+    border-style: inset;
+    border-width: .5em;
+	width: 55%;
+	height:100%;
+}
+
+table#form{
+	width:100%;
+	height: 10%;
+	margin-left: 250px;
+	margin-bottom: 150px;
+}
+
+td#tdper{
+	margin-top: 0%;
+	position: relative;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+header#drcarrer{
+	width: 120.5%;
+	height: 120px;
+	background-color:#81F781;
+}
+span#atras{
+font-size: 100px;
+color: #3ADF00;
+}
+
+span#logo{
+	font-size: 100px;
+	color: #3ADF00;
+	margin-left: 8%;
+}
+
+span#pal{
+	font-size: 170px;
+	color: #3ADF00;
+}
+.btn-info{
+	font-size: 500px;
+	width: 100px;
+	height: 110px;
+}
+.btn-lg{
+	margin: 0;
+}
+#etiquetas{
+	color:#3ADF00 ;
+	font-size: 40px;
+}
+
+input#cajas{
+	border width: 0px;
+	background-color: #FFF;
+	outline: none;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	height: 130px;
+	width: 300px;
+
+}
+
+article#per{
+    border-color:#81F781;
+    border-style: inset;
+    border-width: .5em;
+	width: 900px;
+	height:1000px;	
+}
+
+table#form{
+	width:100%;
+	height: 10%;
+	padding-left: 1500px;
+}
+
+td#tdper{
+	margin-top: 0%;
+	position: relative;
+}
+}
